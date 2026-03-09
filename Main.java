@@ -1,19 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        //ligar 
-        //desligar
-        //volumemais
-        //volumemenos
-        //play
-        //pause
-        //status
-        ControleRemoto c1 = new ControleRemoto();
-        c1.ligar();
-        c1.volumemais();
-        c1.status();
-        ControleRemoto c2 =   new ControleRemoto();
-        c2.ligar();
-        c2.status();
-        
+    Produto p1 = new Produto("camisa", 50.0, 10);
+    p1.setpreco(80.0);
+    p1.venderProduto(8);
+    p1.adicionarQuantidade(10);
+    p1.dadosProduto();
     }
+
 }
